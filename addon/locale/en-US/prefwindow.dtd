@@ -1,0 +1,4 @@
+<!ENTITY prefwindow.title "TextareaForMT5 preferences">
+<!ENTITY pane1.title "TextareaForMT5 preferences">
+<!ENTITY textareaheight.label "Height of textarea">
+<!ENTITY textareaheight.accesskey "H">

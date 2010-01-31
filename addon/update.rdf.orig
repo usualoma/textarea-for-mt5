@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:extension:textareaformt5@toi-planning.net">
+    <em:updates>
+      <Seq>
+        <li>
+          <Description>
+            <em:version>1.0</em:version>
+            <em:targetApplication>
+              <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+								<em:minVersion>3.0.4</em:minVersion>
+								<em:maxVersion>3.*</em:maxVersion>
+								<em:updateLink>http://tec.toi-planning.net/textareaformt5/textareaformt5-1.0.xpi</em:updateLink>
+								<em:updateHash>sha1:beeeabd5273be0586d209cb9ab05ce9ed6329d3d</em:updateHash>
+              </Description>
+            </em:targetApplication>
+          </Description>
+        </li>
+      </Seq>
+    </em:updates>
+  </Description>
+
+</RDF>

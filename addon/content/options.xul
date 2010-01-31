@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://textareaformt5/locale/prefwindow.dtd">
+<prefwindow id="textareaformt5Preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+  <prefpane id="pane1" label="&pane1.title;">
+    <preferences>
+      <preference id="textareaheight" name="extensions.textareaformt5.textareaheight" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
+    </preferences>
+    <label accesskey="&textareaheight.accesskey;" control="texttextareaheight">&textareaheight.label;</label><textbox id="texttextareaheight" preference="textareaheight"/>
+  </prefpane>
+</prefwindow>

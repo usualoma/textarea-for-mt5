@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>textareaformt5@toi-planning.net</em:id>
+    <em:name>TextareaForMT5</em:name>
+    <em:version>1.0</em:version>
+    <em:creator>Taku Amano</em:creator>
+    <em:description>Editing template by plain textarea.</em:description>
+    <em:homepageURL>http://tec.toi-planning.net/</em:homepageURL>
+
+    <em:localized>
+      <Description>
+        <em:locale>ja</em:locale>
+        <em:name>TextareaForMT5</em:name>
+        <em:creator>Taku Amano</em:creator>
+        <em:description>MT5のテンプレートの編集領域をプレーンなテキストエリアに置き換えます</em:description>
+        <em:homepageURL>http://tec.toi-planning.net/</em:homepageURL>
+      </Description>
+    </em:localized>
+
+		<em:updateURL>http://tec.toi-planning.net/textareaformt5/update.rdf</em:updateURL>
+    <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJk6PgRE2I7Z8DLtXH0mOvnEy3Yaei/amMNgJmK5n2gS6GDnxn6Zfu0Pa/cIB5F3ufQjxOELH/U0UKjOA/yspxnN+CluiEGsX989fA5cy82hF0785ZJLt05kIH/SsfbdIOy+iNuJy5ZR76yo+LFgh6dLofNS+KeJ4pmA8FI9fA1QIDAQAB</em:updateKey>
+
+    <em:aboutURL>chrome://textareaformt5/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://textareaformt5/content/options.xul</em:optionsURL>
+    <em:iconURL>chrome://textareaformt5/content/textareaformt5.png</em:iconURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>3.0.4</em:minVersion>
+        <em:maxVersion>3.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
